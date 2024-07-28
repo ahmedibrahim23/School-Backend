@@ -4,22 +4,19 @@
 //import lombok.Data;
 //
 //import java.util.Date;
-//import java.util.List;
 //
 //@Entity
 //@Data
-//@Table(name = "studentTble")
-//public class Student {
+//@Table(name = "AttendanceTable")
+//public class Attendance {
 //    @Id
 //    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "student_id")
+//    @Column(name = "attendance_id")
 //    private Long id;
 //
-//    @Column(name = "name")
-//    private String name;
+//    @Column(name = "Date")
+//    private Date date;
 //
-//    @Column(name = "age")
-//    private int age;
-//
-//
+//    @Column(name = "Status")
+//    private String status;
 //}
